@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7922375491:AAFXM1X6nKbUCvjy1q9o4CuiTU7iXXhpd1A")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7906083843:AAE5B70R4gOY8KUrSzRttV-3zebO_3WXcbE")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "9219444"))
@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "9219444"))
 API_HASH = os.environ.get("API_HASH", "9db23f3d7d8e7fc5144fb4dd218c8cc3")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002306179649"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002465402462"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1014472611"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8047706445"))
 
 #Port
 PORT = os.environ.get("PORT", "3737")
@@ -39,14 +39,14 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_download_tutorial_idk/2"
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002442935049"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002209068416"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002305221203"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002290416867"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>👋👋 Hey {first} ! </b>\n\n<b>I'm a File Store Bot🤖...! </b>\n\nI Can <b>Store Private Files</b> in Specified Channel and other users can access Private Files From a Special Link....!\n\n⚡<b>Powered By - </b>@NextGenBotz")
+START_MSG = os.environ.get("START_MESSAGE", "<b>👋👋 Hey {first} ! </b>\n\n<b>I'm a File Store Bot🤖...! </b>\n\nI Can <b>Store Private Files</b> in Specified Channel and other users can access Private Files From a Special Link....!\n\n⚡</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1014472611").split()):
